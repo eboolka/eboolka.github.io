@@ -1,0 +1,72 @@
+@font-face {
+    font-family: 'Roboto';
+    src: local('Roboto Thin'), local('Roboto-Thin'), url('http://ceramic-mug.cool-g0ods.ru/css/robotothin.woff2') format('woff2'), url('http://ceramic-mug.cool-g0ods.ru/css/robotothin.woff') format('woff'), url('http://ceramic-mug.cool-g0ods.ru/css/robotothin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Roboto';
+    src: local('Roboto Thin Italic'), local('Roboto-ThinItalic'), url('http://ceramic-mug.cool-g0ods.ru/css/robotothinitalic.woff2') format('woff2'), url('http://ceramic-mug.cool-g0ods.ru/css/robotothinitalic.woff') format('woff'), url('http://ceramic-mug.cool-g0ods.ru/css/robotothinitalic.ttf') format('truetype');
+    font-weight: 100;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'Roboto';
+    src: local('Roboto Light'), local('Roboto-Light'), url('http://ceramic-mug.cool-g0ods.ru/css/robotolight.woff2') format('woff2'), url('http://ceramic-mug.cool-g0ods.ru/css/robotolight.woff') format('woff'), url('http://ceramic-mug.cool-g0ods.ru/css/robotolight.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Roboto';
+    src: local('Roboto Light Italic'), local('Roboto-LightItalic'), url('http://ceramic-mug.cool-g0ods.ru/css/robotolightitalic.woff2') format('woff2'), url('http://ceramic-mug.cool-g0ods.ru/css/robotolightitalic.woff') format('woff'), url('http://ceramic-mug.cool-g0ods.ru/css/robotolightitalic.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'Roboto';
+    src: local('Roboto'), local('Roboto-Regular'), url('http://ceramic-mug.cool-g0ods.ru/css/roboto.woff2') format('woff2'), url('http://ceramic-mug.cool-g0ods.ru/css/roboto.woff') format('woff'), url('http://ceramic-mug.cool-g0ods.ru/css/roboto.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Roboto';
+    src: local('Roboto Italic'), local('Roboto-Italic'), url('http://ceramic-mug.cool-g0ods.ru/css/robotoitalic.woff2') format('woff2'), url('http://ceramic-mug.cool-g0ods.ru/css/robotoitalic.woff') format('woff'), url('http://ceramic-mug.cool-g0ods.ru/css/robotoitalic.ttf') format('truetype');
+    font-weight: 400;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'Roboto';
+    src: local('Roboto Medium'), local('Roboto-Medium'), url('http://ceramic-mug.cool-g0ods.ru/css/robotomedium.woff2') format('woff2'), url('http://ceramic-mug.cool-g0ods.ru/css/robotomedium.woff') format('woff'), url('http://ceramic-mug.cool-g0ods.ru/css/robotomedium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Roboto';
+    src: local('Roboto Medium Italic'), local('Roboto-MediumItalic'), url('http://ceramic-mug.cool-g0ods.ru/css/robotomediumitalic.woff2') format('woff2'), url('http://ceramic-mug.cool-g0ods.ru/css/robotomediumitalic.woff') format('woff'), url('http://ceramic-mug.cool-g0ods.ru/css/robotomediumitalic.ttf') format('truetype');
+    font-weight: 500;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'Roboto';
+    src: local('Roboto Bold'), local('Roboto-Bold'), url('http://ceramic-mug.cool-g0ods.ru/css/robotobold.woff2') format('woff2'), url('http://ceramic-mug.cool-g0ods.ru/css/robotobold.woff') format('woff'), url('http://ceramic-mug.cool-g0ods.ru/css/robotobold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Roboto';
+    src: local('Roboto Bold Italic'), local('Roboto-BoldItalic'), url('http://ceramic-mug.cool-g0ods.ru/css/robotobolditalic.woff2') format('woff2'), url('http://ceramic-mug.cool-g0ods.ru/css/robotobolditalic.woff') format('woff'), url('http://ceramic-mug.cool-g0ods.ru/css/robotobolditalic.ttf') format('truetype');
+    font-weight: 700;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'Roboto';
+    src: local('Roboto Black'), local('Roboto-Black'), url('http://ceramic-mug.cool-g0ods.ru/css/robotoblack.woff2') format('woff2'), url('http://ceramic-mug.cool-g0ods.ru/css/robotoblack.woff') format('woff'), url('http://ceramic-mug.cool-g0ods.ru/css/robotoblack.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Roboto';
+    src: local('Roboto Black Italic'), local('Roboto-BlackItalic'), url('http://ceramic-mug.cool-g0ods.ru/css/robotoblackitalic.woff2') format('woff2'), url('http://ceramic-mug.cool-g0ods.ru/css/robotoblackitalic.woff') format('woff'), url('http://ceramic-mug.cool-g0ods.ru/css/robotoblackitalic.ttf') format('truetype');
+    font-weight: 900;
+    font-style: italic;
+}
