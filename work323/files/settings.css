@@ -1,0 +1,340 @@
+.hidden {
+    display: none;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+.center {
+    text-align: center;
+}
+
+.clearfix:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.clear {
+    clear: both;
+    height: 0px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 400;
+}
+
+b,
+strong {
+    font-weight: 700;
+}
+
+body {
+    width: 100%;
+    min-width: 320px;
+    padding: 0px;
+    margin: 0px auto;
+    font-family: "PT Sans", Geneva, Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5em;
+    color: #272727;
+    background: #fff;
+}
+
+.wrap {
+    width: 960px;
+    margin: 0 auto;
+    padding: 40px 20px;
+}
+
+.wrap-nopad {
+    width: 960px;
+    margin: 0 auto;
+    padding: 40px 0;
+}
+
+section {
+    margin: 0 auto;
+}
+
+.container-text {
+    overflow: hidden;
+}
+
+.container-text>p {
+    margin: 0 0 20px;
+}
+
+.gradient--theme {
+    color: #fff;
+    background: #07a6e0;
+    background: -moz-linear-gradient(-45deg, #32dac3 30%, #07a6e0 100%);
+    background: -webkit-linear-gradient(-45deg, #32dac3 30%, #07a6e0 100%);
+    background: linear-gradient(135deg, #32dac3 30%, #07a6e0 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#32dac3', endColorstr='#07a6e0', GradientType=1);
+}
+
+.light--theme {
+    background: url(../files/img/rep-bg-v1.png) repeat;
+}
+
+.mob-hid {
+    display: block;
+}
+
+.mob-vis {
+    display: none;
+}
+
+/*заголовки*/
+.lvl-title-v1 {
+    margin: 0 0 40px;
+    text-align: center;
+    font-size: 36px;
+    line-height: 1.3em;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.wrap-nopad .lvl-title-v1 {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.lvl-title-v1 span {
+    color: #03a9f4;
+}
+
+.black_theme .lvl-title-v1 span {
+    color: #FFC107;
+}
+
+.lvl-title-v2 {
+    margin: 0 0 15px;
+    font-size: 18px;
+    line-height: 1.4em;
+    font-weight: 700;
+}
+
+/*обвесы заголовков*/
+.title-sep-v1:after {
+    content: '';
+    display: block;
+    width: 80px;
+    height: 3px;
+    margin: 20px auto 30px;
+    background: #FFC107;
+}
+
+.black_theme .title-sep-v1:after {
+    background: #03A9F4;
+}
+
+/*списки - только разметка. Обводки, тени, цвета и д.р. прописываются в основном файле под требование дизайна*/
+
+.list-type-v1 {
+    margin: 20px 0 0;
+}
+
+.list-type-v1>li {
+    margin: 8px 0 0;
+}
+
+.list-type-v1>li:before {
+    content: '';
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    vertical-align: middle;
+    margin: -3px 10px 0 0;
+    background: url(../files/img/marker-1.png) 0 0 no-repeat;
+}
+
+.list-type-v2 {
+    font-size: 0;
+    letter-spacing: 0;
+}
+
+.list-type-v2>li {
+    display: inline-block;
+    margin: 30px 0 0;
+    padding: 0 15px;
+    vertical-align: top;
+    text-align: center;
+    font-size: 16px;
+    letter-spacing: normal;
+}
+
+.list-type-v2 .list-img {
+    display: block;
+    margin: 0 auto 15px;
+}
+
+.list-type-v2 .list-cont h4 {
+    margin: 0 0 5px;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.list-type-v3 {
+    font-size: 0;
+    letter-spacing: 0;
+}
+
+.list-type-v3>li {
+    margin: 0 auto 30px;
+    font-size: 16px;
+    letter-spacing: normal;
+}
+
+.list-type-v3>li:after {
+    content: '';
+    display: block;
+    height: 0;
+    clear: both;
+}
+
+.list-type-v3 .list-img {
+    display: block;
+    float: left;
+}
+
+.list-type-v3 .list-cont {
+    padding: 5px 0 0 110px;
+}
+
+.list-type-v3 .list-cont h4 {
+    margin: 0 0 5px;
+    font-weight: 700;
+    font-size: 17px;
+}
+
+/*обвесы списков*/
+.list--circle>li .list-img {
+    border-radius: 50%;
+}
+
+.list--square>li .list-img {
+    border-radius: 8px;
+}
+
+.list--numeric>li .list-img {
+    width: 64px;
+    height: 64px;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 60px;
+    text-align: center;
+    border: 1px solid #00aeef;
+    border-radius: 50%;
+}
+
+.button-m {
+    display: block;
+    max-width: 300px;
+    height: 68px;
+    margin: 0 auto;
+    border: 0;
+    outline: none;
+    text-decoration: none;
+    cursor: pointer;
+    line-height: 68px;
+    font-family: "PT Sans", Geneva, Helvetica, Arial, sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    font-size: 21px;
+    text-align: center;
+    color: #272727;
+    text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.5);
+    border-bottom: 3px solid #d7a200;
+    background: #fece20;
+    background-image: -webkit-linear-gradient(top, #fddc40, #ffc000);
+    background-image: -moz-linear-gradient(top, #fddc40, #ffc000);
+    background-image: -ms-linear-gradient(top, #fddc40, #ffc000);
+    background-image: -o-linear-gradient(top, #fddc40, #ffc000);
+    background-image: linear-gradient(to bottom, #fddc40, #ffc000);
+    -webkit-box-shadow: 0 10px 6px -6px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 10px 6px -6px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+}
+
+.m1-form {
+    width: auto;
+    max-width: 380px;
+    margin: 0 auto;
+}
+
+.m1-form>div {
+    margin: 12px auto;
+}
+
+.m1-form>div:last-of-type {
+    margin-bottom: 0;
+}
+
+.m1-form input {
+    display: block;
+    outline: 0;
+    border: 0;
+    width: 100%;
+    height: 58px;
+    margin: 0 auto;
+    background: #fafafa;
+    text-align: center;
+    font-size: 17px;
+    font-family: "PT Sans", Geneva, Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    border: 1px solid #dedede;
+    border-radius: 4px;
+}
+
+.m1-form button {
+    display: block;
+    width: 100%;
+}
+
+.slick-arrow {
+    display: inline-block;
+    position: absolute;
+    cursor: pointer;
+    z-index: 999;
+}
+
+@media screen and (max-width: 959px) {
+
+    .wrap,
+    .wrap-nopad {
+        width: 640px;
+    }
+
+    .wrap {
+        padding: 30px 10px;
+    }
+
+    .lvl-title-v1 {
+        font-size: 32px;
+    }
+
+}
+
+@media screen and (max-width: 639px) {
+
+    .wrap,
+    .wrap-nopad {
+        width: 320px;
+    }
+
+}
